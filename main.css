@@ -45,17 +45,11 @@
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
   }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-
-
-
-
-    header
+ header
     {
     height: 100vh;
     }
@@ -161,15 +155,10 @@
       .hostel-names button:not(:last-child) {
         border-bottom: none; /* Prevent double borders */
       }
-      
-      /* Add a background color on hover */
       .hostel-names button:hover {
         background-color: #3e8e41;
       }
-
-
-
-      .notices-container button {
+       .notices-container button {
         background-color: #6804aa; /* Green background */
         border: 1px solid #6804aa; /* Green border */
         color: white; /* White text */
@@ -182,33 +171,12 @@
       .notices-container button:not(:last-child) {
         border-bottom: none; /* Prevent double borders */
       }
-      
-      /* Add a background color on hover */
       .notices-container button:hover {
         background-color: #3e8e41;
       }
-
-
-    
-      
-      
-    
-      
-
-
-
-
-
-
-
-   
-
-    footer
+     footer
     {
         height: 50vh;
-        /* display: flex;
-        
-        
         align-items: center;  */
         background-color: bisque;
         
@@ -372,8 +340,6 @@
     height: 100%;
     position: absolute;
     top: 0;
-    /* background: rgba(88,88,88,.4); */
-   /* z-index: 99;
     cursor: pointer;
         
 } */
